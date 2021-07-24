@@ -56,7 +56,7 @@ const data2 = {
 
     const config2 = {
         type: 'radar',
-        data2: data2,
+        data: data2,
         options: {
           elements: {
             line: {
