@@ -1,8 +1,10 @@
-const labels = Utils.months({count: 5});
+var labels = ['高田馬場', '西武新宿', '所沢', '田無', '花小金井'];
+
+
 const data = {
   labels: labels,
   datasets: [{
-    label: '西武新宿線 駅別乗降客数TOP５',
+    label: [],
     data: [207124, 121462, 78002, 56667, 42843],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
@@ -37,7 +39,7 @@ const config = {
     },
   };
 
-  var barChart = new Chart(
+var barChart = new Chart(
     document.getElementById('barChart'),
     config,
 );
