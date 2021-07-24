@@ -44,3 +44,4 @@ var barChart = new Chart(
     config,
 );
 
+
