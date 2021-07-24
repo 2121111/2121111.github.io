@@ -6,13 +6,13 @@ var data1 = {
         label: '初めてのグラフ',
         borderColor: 'rgb(255,100,130)',
         backgroundColor: 'rgb(5,25,200)',
-        data1: [0, 10, 15, 3, 20, 60, 10],
+        data: [0, 10, 15, 3, 20, 60, 10],
 
     }]
 };
 var config1 = {
     type: 'line' ,
-    data1,
+    data:data1,
     options: {},
 };
 
@@ -33,7 +33,7 @@ const data2 = {
     ],
     datasets: [{
       label: 'My First Dataset',
-      data2: [65, 59, 90, 81, 56, 55, 40],
+      data: [65, 59, 90, 81, 56, 55, 40],
       fill: true,
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgb(255, 99, 132)',
@@ -43,7 +43,7 @@ const data2 = {
       pointHoverBorderColor: 'rgb(255, 99, 132)'
     }, {
       label: 'My Second Dataset',
-      data2: [28, 48, 40, 19, 96, 27, 100],
+      data: [28, 48, 40, 19, 96, 27, 100],
       fill: true,
       backgroundColor: 'rgba(54, 162, 235, 0.2)',
       borderColor: 'rgb(54, 162, 235)',
